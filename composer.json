@@ -1,0 +1,33 @@
+{
+  "name": "liushoukun/omnipay-yijipay",
+  "type": "library",
+  "description": "yijipay gateway for Omnipay payment processing library",
+  "keywords": [
+    "yijipay",
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "purchase"
+  ],
+  "homepage": "https://github.com/liushoukun/omnipay-yijipay",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Loki Else",
+      "email": "lokielse@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Yijipay\\": "src/"
+    }
+  },
+  "require": {
+    "omnipay/common": "~2.0"
+  },
+  "require-dev": {
+    "omnipay/tests": "~2.0"
+  }
+}
